@@ -72,10 +72,12 @@ a{
 }
 
 .scrollDown{
+  display: flex;
   width: 70px;
   margin: auto;
   margin-top: 230px;
   transition: transform 0.2s, background-color 0.25s;
+  justify-content: center;
 }
 
 .musuanTitle{
@@ -653,8 +655,9 @@ a{
   }
 
   .visitMTitle{
-    font-size: 5em;
+    font-size: 4.5em;
     text-align: center;
+    margin: auto 50px auto 50px
   }
 
   .visitMText{
@@ -681,12 +684,12 @@ a{
     margin-top: 26vh;
     text-align: center;
     font-family: lalezar;
-    font-size: 12vh;
+    font-size: 9vh;
     color: white;
     margin-bottom: 1vh;
     display: block;
     justify-content: center;
-    margin: 26vh 0px 0px 0px;
+    margin: 26vh 50px 0px 50px;
   }
 
   .creds{
