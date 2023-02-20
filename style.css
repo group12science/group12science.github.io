@@ -76,6 +76,8 @@ a{
   margin: auto;
   margin-top: 230px;
   transition: transform 0.2s, background-color 0.25s;
+  display: flex;
+  justify-content: center;
 }
 
 .musuanTitle{
