@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  zoom: 80%;
+}
+
+@font-face {
+  font-family: Baybayin;
+  src: url(TagalogStylized-GOJeq.ttf);
+}
+
+a{
+  transition: background-color 0.215s;
+}
+
+
+#headerElement:link, #headerElement:visited{
+  color: white;
+  text-decoration: none;
+}
+
+#headerElement:hover{
+  background-color: rgba(255, 255, 255, 0.507);
+  transform: scale(1.5);
+}
+
+.base{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.header{
+  position: sticky;
+  background-color: rgba(28, 226, 55, 0.57);
+  height: 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  resize: none;
+}
+
+.logoHeader{
+  width: 115px;
+  margin-left: 30px;
+}
+
+.hElem{
+  display: flex;
+  margin-right: 20vh;
+}
+
+.hElem div{
+  padding-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.landingPage{
+  height: 780px;
+  align-items: center;
+}
+
+.scrollDown{
+  width: 70px;
+  margin-left: 50%;
+  margin-top: 230px;
+  transition: transform 0.2s, background-color 0.25s;
+}
+
+.musuanTitle{
+  width: 100%;
+  text-align: center;
+  margin-top: 240px;
+  font-size: 9em;
+  font-family: Tahoma;
+  font-weight: bolder;
+  color: white;
+}
+
+.musuanDescription{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: Baybayin;
+  font-weight:300;
+  color: white;
+  letter-spacing: 60px;
+}
+
+.loc{
+  margin-top: 70px;
+  margin-bottom: 0px;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+  width: 124vw;
+}
+
+.loc img{
+  width: 170px;
+  height: 100%;
+}
+
+.locDetails{
+  padding-left: 10px;
+  padding-right: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.locDetails div{
+  margin-left: 50px;
+  display: block;
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro{
+  background-color: rgba(30, 161, 30, 0.796);
+  text-align: left;
+  padding: 40px 200px 60px 150px;
+  color: white;
+  font-family: Lalezar, Helvetica, sans-serif;
+  font-size: 28px;
+  border-style: solid;
+  box-shadow: 0 5px 50px 5px rgba(255, 255, 255, 0.185);
+}
+
+.feature{
+  margin-top: 800px;
+}
+
+.featureTitle{
+  text-align: center;
+  font-family: lalezar;
+  font-size: 8em;
+  color: white;
+}
+
+.imgft1{
+  margin-left: 105px;
+  width: 40%;
+  box-shadow: 15px 15px 0px rgba(104, 248, 124, 0.57);
+  border: 3px solid white;
+  border-radius: 40px;
+  display: block;
+}
+
+.featureDetails{
+  display: flex;
+  margin-bottom: 217px;
+}
+
+.featureText{
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+  font-family: lalezar;
+  background-color: white;
+  padding: 80px;
+  display: absolute;
+  height: 50%;
+  position: relative;
+  margin: auto;
+  margin-left: 105px;
+  margin-right: 105px;
+  text-align: justify;
+}
+
+.featureText div{
+  padding-bottom: 50px;
+}
+
+.featureDetails2{
+  display: block;
+}
+
+.featureText2{
+  margin: 0px 230px 10px 230px;
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+  font-family: lalezar;
+  padding: 50px 60px 50px 60px;
+  display: absolute;
+  text-align: center;
+  background-color: white;
+}
+
+.fT21{
+  margin-bottom: 50px;
+}
+
+.featureDetails2 img{
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid white;
+  border-radius: 30px;
+  width: 800px;
+}
+
+.funF{
+  margin-top: 800px;
+}
+
+.funFTitle{
+  text-align: center;
+  font-family: lalezar;
+  font-size: 7em;
+  color: white;
+}
+
+.funFText{
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  font-family: lalezar;
+  background-color: rgba(0, 0, 0, 0.711);
+  padding: 80px;
+  display: absolute;
+  position: relative;
+  margin: auto;
+  margin-left: 230px;
+  margin-right: 230px;
+  text-align: center;
+}
+
+.recentAct{
+  margin-top: 600px;
+  margin-bottom: 600px;
+}
+
+.recent1{
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 70vh;
+  height: 100%;
+  margin: -50px 50px 0px 50px;
+}
+
+.recent1desc{
+  font-size: 2.65vh;
+  padding: 35px 40px 35px 40px;
+  text-align: justify;
+}
+
+.recentTitle{
+  font-size: 3em;
+  padding: 40px 0px 0px 40px;
+  font-weight: 600;
+}
+
+.recentActTitle{
+  text-align: center;
+  font-family: lalezar;
+  font-size: 13vh;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.recentAText{
+  display: flex;
+  justify-content: center;
+  font-family: lalezar;
+}
+
+.visitMusuan{
+  margin-bottom: 5rem;
+}
+
+.visitMusuan2{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.visitMTitle{
+  text-align: center;
+  font-family: lalezar;
+  font-size: 5.5em;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.visitMText{
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+  font-family: lalezar;
+  background-color: rgb(255, 255, 255);
+  padding: 80px;
+  display: absolute;
+  position: relative;
+  margin: auto;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: justify;
+}
+
+.vmT1{
+  margin-bottom: 80px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.carousel {
+  width: 100vw;
+  height: 62vw;
+  position: relative;
+  margin: auto;
+  border: solid 5px #099b1a;
+}
+
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+}
+
+.slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 5;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, .5);
+  cursor: pointer;
+  border-radius: .25rem;
+  padding: 0 .5rem;
+  background-color: rgba(0, 0, 0, 0.508);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.733);
+  transition: background-color 0.15s;
+}
+
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+
+.carousel-button.prev {
+  left: 1rem;
+}
+
+.carousel-button.next {
+  right: 1rem;
+}
+
+.slide[data-active]:hover {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+
+.endSign{
+  margin-top: 26vh;
+  text-align: center;
+  font-family: lalezar;
+  font-size: 13vh;
+  color: white;
+  margin-bottom: 1vh;
+  display: block;
+  justify-content: center;
+}
+
+.endSignImg{
+  width: 40vh;
+  margin: auto;
+  display: block;
+  margin-top: 80vh;
+}
+
+.creds{
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: lalezar;
+  font-size: 2.6vw;
+  margin-top: -60vh;
+  margin-bottom: 15vh;
+  
+}
+
+.creds div{
+  margin: 600px 50px 10px 50px;
+}
+
+.topBtn{
+  position: fixed;
+  width: 8vh;
+  bottom: 2vw;
+  right: 2vw;
+  transition: transform 0.2s, background-color 0.25s;
+}
+
+.topBtn:hover{
+  transform: scale(1.2);
+  background-color: rgba(243, 245, 131, 0.296);
+}
+
+.scrollDown:hover{
+  transform: scale(1.2);
+  background-color: rgba(243, 245, 131, 0.296);
+}
