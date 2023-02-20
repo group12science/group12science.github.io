@@ -450,7 +450,7 @@ a{
   background-color: rgba(243, 245, 131, 0.296);
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 375px){
 
   .topBtn{
     position: fixed;
